@@ -1,0 +1,17 @@
+{
+   "content_scripts": [ {
+      "js": [ "background.js" ],
+      "matches": [ "\u003Call_urls\u003E" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "Console Blur - abuse of the console styling tools to blur output text.",
+   "homepage_url": "https://twitter.com/four_seven",
+   "icons": {
+      "48": "icon48.png"
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "24.0",
+   "name": "Console Blur",
+   "permissions": ["tabs"],
+   "version": "1.0.0"
+}
