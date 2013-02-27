@@ -2,7 +2,7 @@
    "content_scripts": [ {
       "js": [ "background.js" ],
       "matches": [ "\u003Call_urls\u003E" ],
-      "run_at": "document_idle"
+      "run_at": "document_end"
    } ],
    "description": "Console Blur - abuse of the console styling tools to blur output text.",
    "homepage_url": "https://twitter.com/four_seven",
